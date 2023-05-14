@@ -22,6 +22,18 @@ To find largest among three floating point numbers.
 #include <iostream>
 #include <cmath>
 
+
+
+template <class T>
+T largest(T x, T y, T z) {
+    if(x > y && x > z){
+        return x;}
+    else if(y > x && y > z){
+        return y;}
+    else{
+        return z;
+    }
+}
 int largest(int x, int y, int z){
     if(x > y && x > z){
         return x;}
