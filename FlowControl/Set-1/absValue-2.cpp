@@ -20,7 +20,5 @@ int main (){
 		cout<<"The absolute value of number is:"<<a;
 	else
 		cout<<"The absolute value of number is:"<<-(a);
-
-
 	return 0;
     */

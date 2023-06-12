@@ -13,6 +13,7 @@ int main(){
     std::cin>>Sulabh;
     std::cout<<"Enter the age of Ajay: ";
     std::cin>>Ajay;
+    
     if(Ram<Sulabh && Ram<Ajay){
         std::cout<<"The youngest age is Ram" << std::endl;
     }

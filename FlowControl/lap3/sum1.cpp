@@ -15,10 +15,10 @@ int main(){
 
     while(number != 0){
 
-        sum += number % 10;
-        std::cout << number << std::endl;
+        sum += number % 10; // 2+5+6
+        std::cout << number << std::endl; // 56
 
-        number = number / 10;
+        number = number / 10; // 5
 
         std::cout << number << std::endl;
     }

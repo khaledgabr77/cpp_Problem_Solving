@@ -21,7 +21,7 @@ bool is_prime(int number) {
     return true;
 }
 
-void prime( int n, int k ){
+void prime(int n, int k){
 
     for(int i = n; i <= k; i++){
         if(is_prime(i)){

@@ -8,6 +8,7 @@ an odd number or even number.
 int main(){
 
     int num;
+    std::cout << "Please enter a number: \n";
     std::cin >> num;
     if(num % 2 == 0){
         std::cout << "Even number" << std::endl;
